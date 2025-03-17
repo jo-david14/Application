@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vos commentaires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="comment-form">
+            <h1>Vos commentaires sont précieux !</h1>
+            <img src="C:\Users\ANSD\OneDrive\Bureau\projet app\image\commentaire.jpg" alt="Image de commentaires" class="form-image">
+            <form id="comment-form">
+                <div class="form-group">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="comment">Commentaire :</label>
+                    <textarea id="comment" name="comment" class="form-control" placeholder="Votre commentaire"></textarea>
+                </div>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
